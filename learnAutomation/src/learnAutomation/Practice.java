@@ -19,7 +19,7 @@ public class Practice {
 		//WebDriver Driver= new FirefoxDriver();
 		//DragDrop(Driver);
 		MouseActions(Driver);
-		Testcaseprint();
+
 		
 	}
 	public static void DragDrop(WebDriver Driver) throws InterruptedException
@@ -45,8 +45,5 @@ public class Practice {
 		Thread.sleep(10000);
 		MouseHandle.release(MouseOver).build().perform();
 	}
-	public static void Testcaseprint()
-	{
-		System.out.println("Hello GIThub");
-	}
+
 }
